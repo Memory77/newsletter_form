@@ -1,5 +1,5 @@
 # newsletter_form
-<h1>Description<h1>
+<h1>Description</h1>
 Ce module custom génère un formulaire qui enregistre les données au
 sein de Drupal dans le cadre d'une inscription à la newsletter.
 
