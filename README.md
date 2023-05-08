@@ -1,4 +1,4 @@
-# newsletter_form
+<h1># newsletter_form</h1>
 <h1>Description</h1>
 Ce module custom génère un formulaire qui enregistre les données au
 sein de Drupal dans le cadre d'une inscription à la newsletter.
@@ -17,7 +17,7 @@ Vous pouvez le nommer Inscription newsletter. Description "Type de contenu pour 
 	- Label : Civilité emetteur	nom machine : field_in_gender		Type de champ: Liste(texte)  <br>
 
 Ne pas oublier de mettre tous les champs en requis. Le "in" du nom machine pour inscription newsletter.  <br>
-Pour la liste je vous conseille de mettre ceci en valeurs autorisées :   <br>
+Pour la liste, mettre ceci en valeurs autorisées :   <br>
 0|Monsieur   <br>
 1|Madame     <br> <br>
 
