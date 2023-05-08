@@ -1,0 +1,7 @@
+newsletter_form.config_form:
+  path: '/inscription-newsletter'
+  defaults:
+    _form: '\Drupal\newsletter_form\Form\NewsletterForm'
+    _title: 'Inscription newsletter'
+  requirements:
+    _permission: 'access content'

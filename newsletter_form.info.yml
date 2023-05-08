@@ -1,0 +1,5 @@
+name: Newsletter Form
+type: module
+description: Formulaire d'inscription à une newsletter dans Drupal.
+core_version_requirement: ^8 || ^9
+package: Test technique
