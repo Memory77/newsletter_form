@@ -9,12 +9,12 @@ Voici les différentes étapes pour le faire fonctionner :
 <h1>Fonctionnement</h1>
 1. Installer le module newsletter_form dans modules/custom.<br>
 2. Créer un type de contenu. Dans le back-office Drupal, dans Structure/Type de contenu/Ajouter un type de contenu ou /admin/structure/types/add
-Vous pouvez le nommer Inscription newsletter. Description "Type de contenu pour voir les personnes inscrites à la newsletter"<br><br>
+Vous pouvez le nommer Inscription newsletter. <br>Description "Type de contenu pour voir les personnes inscrites à la newsletter"<br><br>
 
 3. Dans gérer les champs, nous allons créer 3 champs. <br>
 	- Label : Nom emetteur		 nom machine : field_in_name		Type de champ : Texte(brut) <br>
 	- Label : Email emetteur	 nom machine : field_in_mail		Type de champ: Texte(brut) <br>
-	- Label : Civilité emetteur	nom machine : field_in_gender		Type de champ: Liste(texte)  <br> <br>
+	- Label : Civilité emetteur	nom machine : field_in_gender		Type de champ: Liste(texte)  <br>
 
 Ne pas oublier de mettre tous les champs en requis. Le "in" du nom machine pour inscription newsletter.  <br>
 Pour la liste je vous conseille de mettre ceci en valeurs autorisées :   <br>
@@ -43,7 +43,7 @@ Vous pouvez ajouter les liens d'actions pour pouvoir effectuer des opérations<b
 View bulk operations notamment si vous voulez les effectuer en masse, vous pouvez cocher les différentes opérations que vous souhaitez.<br>
 Vous pouvez cocher "Delete selected entities / translations" par exemple, afin de pouvoir supprimer massivement. Supplanter l'étiquette "Supprimer"<br>
 Réordonnez de la manière suivante: <br>
-View bulk operation, nom emetteur, email emetteur, civilité emetteur, liens d'actions<br><br>
+View bulk operation, nom emetteur, email emetteur, civilité emetteur, liens d'actions<br>
 
 Ajoutez des critères de filtrage si vous le souhaitez. <br>
 Vous pouvez mettre Nom emetteur et cocher "exposer ce filtre aux visiteurs", ainsi que l'opérateur "Contient"
