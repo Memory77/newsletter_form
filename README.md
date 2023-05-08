@@ -8,8 +8,8 @@ Voici les différentes étapes pour le faire fonctionner :
 
 <h1>Fonctionnement</h1>
 1. Installer le module newsletter_form dans modules/custom.<br>
-2. Créer un type de contenu. Dans le back-office Drupal, dans Structure/Type de contenu/Ajouter un type de contenu ou /admin/structure/types/add
-Vous pouvez le nommer Inscription newsletter. <br>Description "Type de contenu pour voir les personnes inscrites à la newsletter"<br><br>
+2. Créer un type de contenu. Dans le back-office Drupal, dans Structure/Type de contenu/Ajouter un type de contenu ou /admin/structure/types/add <br>
+Vous pouvez le nommer Inscription newsletter. Description "Type de contenu pour voir les personnes inscrites à la newsletter"<br><br>
 
 3. Dans gérer les champs, nous allons créer 3 champs. <br>
 	- Label : Nom emetteur		 nom machine : field_in_name		Type de champ : Texte(brut) <br>
